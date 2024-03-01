@@ -11,6 +11,7 @@ public class MsgService {
 	}
 
 	public String getGreetMsg() {
+		System.out.println("Msg from Greet Method");
 		String msg = "Greeting from Ashok It";
 		return msg;
 	}
